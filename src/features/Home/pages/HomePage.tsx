@@ -1,5 +1,9 @@
+import { NavBar } from "../../../ui/layout/NavBar"
+
 export const HomePage = () => {
   return (
-    <div>HomePage</div>
+    <div className="container">
+      <NavBar />
+    </div>
   )
 }

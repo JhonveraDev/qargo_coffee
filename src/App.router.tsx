@@ -1,4 +1,4 @@
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, Navigate } from 'react-router-dom';
 import { HomePage } from './features/Home/pages/HomePage';
 import { AboutPage } from './features/About/pages/AboutPage';
 import { BlogsPage } from './features/Blogs/pages/BlogsPage';
@@ -22,8 +22,10 @@ export default function App() {
 
       {/* Ruta temporal para futuras páginas */}
       <Route path="/coming-soon" element={<h1>Próximamente…</h1>} />
+
+      {/* Catch-all: cualquier ruta no encontrada → Home */}
+      <Route path="*" element={<Navigate to="/" replace />} />
     </Routes>
   );
 }
 
-CORRREGIR RUTAS CUANDO SE TIPEE MAL QUE REDIRECIONE A HOME
