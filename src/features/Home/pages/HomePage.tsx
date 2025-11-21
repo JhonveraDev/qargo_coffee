@@ -1,9 +1,10 @@
-import { NavBar } from "../../../ui/layout/NavBar"
+import { HeroHome, PopularChoices } from "../index"
 
 export const HomePage = () => {
   return (
-    <div className="container">
-      <NavBar />
-    </div>
+    <>
+      <HeroHome />
+      <PopularChoices />
+    </>
   )
 }
