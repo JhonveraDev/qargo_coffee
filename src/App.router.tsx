@@ -5,7 +5,7 @@ import { BlogsPage } from './features/Blogs/pages/BlogsPage';
 import { OurMenuPage } from './features/OurMenu/pages/OurMenuPage';
 import { LocationsPage } from './features/Locations/pages/LocationsPage';
 import { FranchisePage } from './features/Franchise/pages/FranchisePage';
-import { ExperiencesPage } from './features/Experiences/pages/ExperiencesPage';
+// import { ExperiencesPage } from './features/Experiences/pages/ExperiencesPage';
 import { ContactUsPage } from './features/ContactUs/pages/ContactUsPage';
 import { Footer, NavBar } from './ui';
 
@@ -20,7 +20,7 @@ export default function App() {
           <Route path="/our-menu" element={<OurMenuPage />} />
           <Route path="/locations" element={<LocationsPage />} />
           <Route path="/franchise" element={<FranchisePage />} />
-          <Route path="/experiences" element={<ExperiencesPage />} />
+          {/* <Route path="/experiences" element={<ExperiencesPage />} /> */}
           <Route path="/blogs" element={<BlogsPage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/contact-us" element={<ContactUsPage />} />

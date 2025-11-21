@@ -10,7 +10,7 @@ export const NavBar = () => {
     { to: "/our-menu", label: "Our Menu" },
     { to: "/locations", label: "Locations" },
     { to: "/franchise", label: "Franchise" },
-    { to: "/experiences", label: "Experiences" },
+    // { to: "/experiences", label: "Experiences" },
     { to: "/blogs", label: "Blogs" },
     { to: "/contact-us", label: "Contact Us" },
     // { to: "/coming-soon", label: "Coming Soon" },
